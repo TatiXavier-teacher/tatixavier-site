@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unlock Your English with Tati Xavier</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
         body { 
-            font-family: Arial, sans-serif; 
+            font-family: 'Poppins', sans-serif;
             text-align: center; 
             margin: 0; 
             padding: 0; 
@@ -27,16 +28,21 @@
             margin-right: 15px;
         }
         .section { 
-            padding: 40px; 
+            padding: 60px; 
             background: #ffffff;
             color: #00274D;
+            transition: transform 0.3s ease-in-out;
+        }
+        .section:hover {
+            transform: scale(1.02);
         }
         .cta { 
             background: #FFD700; 
             padding: 20px; 
-            font-size: 20px; 
+            font-size: 22px; 
             color: #00274D;
             font-weight: bold;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         }
         footer { 
             background: #00274D; 
@@ -47,18 +53,36 @@
             color: #00274D; 
             font-weight: bold; 
             text-decoration: none; 
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #FFD700;
         }
         .image-section {
             background: linear-gradient(to bottom, #FFD700, #FFFFFF);
             color: #00274D;
-            padding: 50px 20px;
+            padding: 60px 20px;
         }
         .profile-img {
-            width: 150px;
-            height: 150px;
+            width: 180px;
+            height: 180px;
             border-radius: 50%;
             object-fit: cover;
             margin-top: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .whatsapp-button {
+            background: #25D366;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+            transition: background 0.3s ease-in-out;
+        }
+        .whatsapp-button:hover {
+            background: #1ebe57;
         }
     </style>
 </head>
@@ -83,37 +107,23 @@
         <h2>Quem Sou Eu?</h2>
         <p>Olá! Sou Tati Xavier, formada em Letras Português e Inglês, com mais de 20 anos de experiência na educação e certificação internacional. Tenho uma paixão profunda pelo ensino de inglês e estou aqui para ajudar você a alcançar seus objetivos de forma leve e eficaz.</p>
         <p>Minha missão é tornar o aprendizado acessível, dinâmico e transformador, desbloqueando as barreiras que impedem você de falar inglês de verdade.</p>
-        <p>Vamos juntos nessa jornada?</p>
-    </section>
-    
-    <section class="section">
-        <h2>Mentorias e Aulas</h2>
-        <p>Domine o inglês com aulas práticas e personalizadas, focadas na comunicação, e se destaque! Nossas aulas são planejadas de acordo com seus interesses, objetivos e necessidades.</p>
-        <a href="#">Saiba mais</a>
     </section>
     
     <section class="section">
         <h2>Escolha sua Forma de Estudo</h2>
-        <p>Oferecemos diferentes formatos para se adaptar ao seu estilo de aprendizado, garantindo que o conteúdo seja relevante e motivador.</p>
         <h3>VIP</h3>
-        <a href="https://wa.me/seunumerodetelefone" target="_blank">Fale comigo no WhatsApp</a>
+        <a href="https://wa.me/seunumerodetelefone" target="_blank" class="whatsapp-button">Fale comigo no WhatsApp</a>
         <h3>Duplas ou Trios</h3>
-        <a href="https://wa.me/seunumerodetelefone" target="_blank">Fale comigo no WhatsApp</a>
+        <a href="https://wa.me/seunumerodetelefone" target="_blank" class="whatsapp-button">Fale comigo no WhatsApp</a>
         <h3>Grupos (até 5 alunos)</h3>
-        <a href="https://wa.me/seunumerodetelefone" target="_blank">Fale comigo no WhatsApp</a>
+        <a href="https://wa.me/seunumerodetelefone" target="_blank" class="whatsapp-button">Fale comigo no WhatsApp</a>
         <h3>Híbrido</h3>
-        <a href="https://wa.me/seunumerodetelefone" target="_blank">Fale comigo no WhatsApp</a>
+        <a href="https://wa.me/seunumerodetelefone" target="_blank" class="whatsapp-button">Fale comigo no WhatsApp</a>
     </section>
     
     <section class="cta">
         <h2>Agende sua primeira aula e descubra como o inglês pode ser para você!</h2>
         <a href="#">Clique aqui</a>
-    </section>
-    
-    <section class="section">
-        <h2>Blog & Dicas</h2>
-        <p>Explore nossos artigos, vídeos e conteúdos exclusivos para acelerar seu aprendizado e dominar o inglês de forma prática e eficaz.</p>
-        <a href="#">Ver mais</a>
     </section>
     
     <footer>
