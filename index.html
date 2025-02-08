@@ -40,8 +40,20 @@
             transition: transform 0.3s ease-in-out;
             border-bottom: 3px solid #FFD700;
             display: flex;
-            flex-direction: column;
             align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .section-content {
+            flex: 1;
+            text-align: left;
+        }
+        .section img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
         }
         .cta-button {
             background: #FFD700;
@@ -90,27 +102,27 @@
     </header>
     
     <section class="section">
-        <h2><i class="fas fa-user-graduate"></i> Sobre Mim</h2>
-        <p>Sou Tati Xavier, professora de inglês especializada em ajudar brasileiros a desbloquear o aprendizado de forma leve e eficaz. Possuo formação acadêmica como professora de inglês e certificação internacional no ensino de inglês como segunda língua.</p>
-        <h3>Formação Acadêmica e Certificações</h3>
-        <ul>
-            <li><strong>Letras - Português/Inglês</strong> - UFRJ</li>
-            <li><strong>Letras - Inglês</strong> - Estácio</li>
-            <li><strong>Gestão de Pessoas</strong> - FGV</li>
-            <li><strong>TKT Course</strong> - Teaching Knowledge Test</li>
-        </ul>
+        <div class="section-content">
+            <h2><i class="fas fa-user-graduate"></i> Sobre Mim</h2>
+            <p>Sou Tati Xavier, professora de inglês especializada em ajudar brasileiros a desbloquear o aprendizado de forma leve e eficaz. Possuo formação acadêmica como professora de inglês e certificação internacional no ensino de inglês como segunda língua.</p>
+            <h3>Formação Acadêmica e Certificações</h3>
+            <ul>
+                <li><strong>Letras - Português/Inglês</strong> - UFRJ</li>
+                <li><strong>Letras - Inglês</strong> - Estácio</li>
+                <li><strong>Gestão de Pessoas</strong> - FGV</li>
+                <li><strong>TKT Course</strong> - Teaching Knowledge Test</li>
+            </ul>
+        </div>
+        <img src="foto tati.jpg" alt="Sobre Mim">
     </section>
     
     <section class="section">
-        <h2><i class="fas fa-comments"></i> Depoimentos de Alunos</h2>
-        <p>Veja o que meus alunos dizem sobre suas experiências!</p>
+        <div class="section-content">
+            <h2><i class="fas fa-comments"></i> Depoimentos de Alunos</h2>
+            <p>Veja o que meus alunos dizem sobre suas experiências!</p>
+        </div>
         <img src="Depoimento 1.jpg" alt="Depoimento de Aluno">
         <img src="Depoimento 2.jpg" alt="Depoimento de Aluno">
-    </section>
-    
-    <section class="section">
-        <h2><i class="fas fa-book"></i> O Que Ofereço</h2>
-        <p>✔️ Aulas personalizadas<br>✔️ Metodologia dinâmica<br>✔️ Aprendizado prático e motivador</p>
     </section>
     
     <section class="section">
