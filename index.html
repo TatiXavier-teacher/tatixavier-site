@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unlock Your English with Tati Xavier</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
         body { 
@@ -38,9 +39,21 @@
             color: #00274D;
             transition: transform 0.3s ease-in-out;
             border-bottom: 3px solid #FFD700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
         }
-        .section:hover {
-            transform: scale(1.02);
+        .section img {
+            width: 250px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .text-content {
+            max-width: 500px;
+            text-align: left;
         }
         .cta { 
             background: #FFD700; 
@@ -64,32 +77,6 @@
         a:hover {
             color: #FFD700;
         }
-        .image-section {
-            background: linear-gradient(to bottom, #FFD700, #FFFFFF);
-            color: #00274D;
-            padding: 60px 20px;
-        }
-        .profile-img {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-top: 20px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-        }
-        .whatsapp-button {
-            background: #25D366;
-            color: white;
-            padding: 12px 24px;
-            text-decoration: none;
-            border-radius: 5px;
-            display: inline-block;
-            margin-top: 10px;
-            transition: background 0.3s ease-in-out;
-        }
-        .whatsapp-button:hover {
-            background: #1ebe57;
-        }
     </style>
 </head>
 <body>
@@ -98,59 +85,44 @@
         <h1>Desbloqueie Seu Inglês e Conquiste o Mundo!</h1>
     </header>
     
-    <section class="image-section">
-        <img src="foto tati.jpg" alt="Teacher Tati Xavier" class="profile-img">
-        <h2>English with Teacher Tati Xavier</h2>
-        <p>Transforme seu aprendizado com aulas dinâmicas e motivadoras.</p>
+    <section class="section">
+        <img src="placeholder.jpg" alt="Sobre Mim">
+        <div class="text-content">
+            <h2><i class="fas fa-user-graduate"></i> Sobre Mim</h2>
+            <p>Sou Tati Xavier, professora de inglês especializada em ajudar brasileiros a desbloquear o aprendizado de forma leve e eficaz. Possuo formação acadêmica como professora de inglês e certificação internacional no ensino de inglês como segunda língua.</p>
+        </div>
     </section>
     
     <section class="section">
-        <h2>Sobre Mim</h2>
-        <p>Sou Tati Xavier, professora de inglês especializada em ajudar brasileiros a desbloquear o aprendizado de forma leve e eficaz. Possuo formação acadêmica como professora de inglês e certificação internacional no ensino de inglês como segunda língua.</p>
-        <h3>Formação Acadêmica e Certificações</h3>
-        <ul>
-            <li><strong>Letras - Português/Inglês</strong> - UFRJ</li>
-            <li><strong>Letras - Inglês</strong> - Estácio</li>
-            <li><strong>Gestão de Pessoas</strong> - FGV</li>
-            <li><strong>TKT Course</strong> - Teaching Knowledge Test</li>
-        </ul>
-    </section>
+        <img src="placeholder.jpg" alt="Depoimentos">
+        <div class="text-content">
+            <h2><i class="fas fa-comments"></i> Depoimentos de Alunos</h2>
+            <p><em>"Graças à Tati, finalmente me sinto confiante para falar inglês!"</em> - Ana</p>
+            <p><em>"Aulas incríveis, bem estruturadas e muito dinâmicas!"</em> - João</p>
+        </div>
     </section>
     
     <section class="section">
-        <h2>Depoimentos de Alunos</h2>
-        <p>Veja o que meus alunos dizem sobre suas experiências!</p>
-        <p><em>"Graças à Tati, finalmente me sinto confiante para falar inglês!"</em> - Ana</p>
-        <p><em>"Aulas incríveis, bem estruturadas e muito dinâmicas!"</em> - João</p>
-    </section>
-    </section>
-    
-    <section class="section">
-        <h2>O Que Ofereço</h2>
-        <p>✔️ Aulas personalizadas<br>✔️ Metodologia dinâmica<br>✔️ Aprendizado prático e motivador</p>
+        <img src="placeholder.jpg" alt="O Que Ofereço">
+        <div class="text-content">
+            <h2><i class="fas fa-book"></i> O Que Ofereço</h2>
+            <p>✔️ Aulas personalizadas<br>✔️ Metodologia dinâmica<br>✔️ Aprendizado prático e motivador</p>
+        </div>
     </section>
     
     <section class="section">
-        <h2>Tipos de Aulas</h2>
-        <h3>VIP</h3>
-        <p>Aulas individuais para quem deseja atenção total e personalização máxima.</p>
-        <a href="https://wa.me/seunumerodetelefone" target="_blank" class="whatsapp-button">Fale comigo no WhatsApp</a>
-        <h3>Duplas ou Trios</h3>
-        <p>Estude com amigos ou colegas para manter a motivação e o dinamismo.</p>
-        <a href="https://wa.me/seunumerodetelefone" target="_blank" class="whatsapp-button">Fale comigo no WhatsApp</a>
-        <h3>Grupos (até 5 alunos)</h3>
-        <p>Aprenda em um ambiente colaborativo e interativo com um ótimo custo-benefício.</p>
-        <a href="https://wa.me/seunumerodetelefone" target="_blank" class="whatsapp-button">Fale comigo no WhatsApp</a>
-        <h3>Híbrido</h3>
-        <p>Combine aulas ao vivo e gravadas para flexibilidade e prática contínua.</p>
-        <a href="https://wa.me/seunumerodetelefone" target="_blank" class="whatsapp-button">Fale comigo no WhatsApp</a>
-    </section>
-    
-    <section class="section">
-        <h2>Depoimentos de Alunos</h2>
-        <p>Veja o que meus alunos dizem sobre suas experiências!</p>
-        <p><em>"Graças à Tati, finalmente me sinto confiante para falar inglês!"</em> - Ana</p>
-        <p><em>"Aulas incríveis, bem estruturadas e muito dinâmicas!"</em> - João</p>
+        <img src="placeholder.jpg" alt="Tipos de Aulas">
+        <div class="text-content">
+            <h2><i class="fas fa-chalkboard-teacher"></i> Tipos de Aulas</h2>
+            <h3>VIP</h3>
+            <p>Aulas individuais para quem deseja atenção total e personalização máxima.</p>
+            <h3>Duplas ou Trios</h3>
+            <p>Estude com amigos ou colegas para manter a motivação e o dinamismo.</p>
+            <h3>Grupos (até 5 alunos)</h3>
+            <p>Aprenda em um ambiente colaborativo e interativo com um ótimo custo-benefício.</p>
+            <h3>Híbrido</h3>
+            <p>Combine aulas ao vivo e gravadas para flexibilidade e prática contínua.</p>
+        </div>
     </section>
     
     <section class="cta">
